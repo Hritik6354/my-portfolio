@@ -3,7 +3,7 @@ export default function About() {
     <section id="about">
       <div className="about-grid">
         <div>
-          <p className="section-label">// ABOUT ME</p>
+          <p className="section-label">{"// ABOUT ME"}</p>
           <h2 className="section-title">Turning ideas into digital reality</h2>
 
           <p className="about-text">

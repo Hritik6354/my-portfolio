@@ -30,7 +30,7 @@ export default function Contact() {
   return (
     <section id="contact">
       <div className="contact-wrap">
-        <p className="section-label">// GET IN TOUCH</p>
+        <p className="section-label">{"// GET IN TOUCH"}</p>
         <h2 className="section-title">Contact Me</h2>
         <p className="contact-text">
           Have a project idea or want to collaborate? Feel free to reach out —
@@ -39,7 +39,7 @@ export default function Contact() {
 
         <div className="contact-links">
           <a
-            href="#"
+            href="mailto:hritik6354@gmail.com"
             className="contact-link"
             id="contact-email"
           >

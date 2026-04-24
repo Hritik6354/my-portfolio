@@ -33,7 +33,7 @@ export default function Projects() {
   return (
     <section id="projects">
       <div className="projects-wrap">
-        <p className="section-label">// PORTFOLIO</p>
+        <p className="section-label">{"// PORTFOLIO"}</p>
         <h2 className="section-title">Projects</h2>
 
         <div className="projects-grid">

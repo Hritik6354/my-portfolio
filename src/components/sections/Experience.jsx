@@ -45,7 +45,7 @@ export default function Experience() {
   return (
     <section id="experience">
       <div className="exp-wrap">
-        <p className="section-label">// CAREER PATH</p>
+        <p className="section-label">{"// CAREER PATH"}</p>
         <h2 className="section-title">Experience</h2>
 
         <div className="timeline">
