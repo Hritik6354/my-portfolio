@@ -45,7 +45,7 @@ export default function About() {
             <div className="orbit-dot"></div>
           </div>
           <div className="avatar-frame">
-            <div className="avatar-inner">HK</div>
+            <div className="avatar-inner"><img src="/profile.jpg" alt="Profile" className="avatar-img" /></div>
           </div>
         </div>
       </div>

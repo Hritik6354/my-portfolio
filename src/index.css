@@ -50,6 +50,12 @@
       .about-img-box{position:relative;display:flex;align-items:center;justify-content:center}
       .avatar-frame{width:300px;height:300px;border-radius:50%;border:2px solid var(--accent);position:relative;display:flex;align-items:center;justify-content:center;box-shadow:0 0 60px rgba(0,212,255,0.2)}
       .avatar-inner{width:260px;height:260px;border-radius:50%;background:linear-gradient(135deg,var(--mid),var(--accent2));display:flex;align-items:center;justify-content:center;font-family:'Orbitron',monospace;font-size:5rem;color:rgba(255,255,255,0.9)}
+      .avatar-img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+      }
       .orbit-ring{position:absolute;border:1px solid rgba(0,212,255,0.3);border-radius:50%;animation:spin 8s linear infinite}
       .orbit-ring:nth-child(1){width:340px;height:340px}
       .orbit-ring:nth-child(2){width:380px;height:380px;animation-direction:reverse;animation-duration:12s}
