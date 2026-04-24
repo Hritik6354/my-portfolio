@@ -139,10 +139,21 @@
       @keyframes pulse{0%,100%{box-shadow:0 0 20px rgba(0,212,255,0.3)}50%{box-shadow:0 0 40px rgba(0,212,255,0.6)}}
 
       @media(max-width:768px){
-        .about-grid{grid-template-columns:1fr}
-        .about-img-box{display:none}
+        .about-grid{grid-template-columns:1fr;gap:3rem;text-align:center;}
+        .about-text{text-align:left;}
+        .about-img-box{display:flex;margin:1rem auto 0;}
+        .avatar-frame{width:220px;height:220px;}
+        .avatar-inner{width:190px;height:190px;}
+        .orbit-ring:nth-child(1){width:250px;height:250px;}
+        .orbit-ring:nth-child(2){width:280px;height:280px;}
+        .about-stats{gap:0.5rem;}
+        .stat-card{padding:0.8rem;}
+        .stat-num{font-size:1.5rem;}
         .form-row{grid-template-columns:1fr}
-        .nav-links{gap:1rem}
-        nav{padding:.8rem 1rem}
+        .nav-links{gap:0.8rem;flex-wrap:wrap;justify-content:center;}
+        nav{padding:1rem;flex-direction:column;gap:1rem;}
+        .hero-name{font-size:clamp(2rem,10vw,3rem);}
+        .skills-grid{grid-template-columns:1fr;}
+        .projects-grid{grid-template-columns:1fr;}
+        section{padding:7rem 1.5rem 2rem;}
       }
-    
